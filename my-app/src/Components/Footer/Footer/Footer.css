@@ -1,0 +1,32 @@
+.footer {
+    background-color: #f8f9fa; 
+    color: #333;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #00B3B9;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .separator {
+    margin: 0 8px;
+    color: #333;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .footer ul {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .separator {
+      display: none; /* Hide the '|' separator on mobile */
+    }
+  }
+  

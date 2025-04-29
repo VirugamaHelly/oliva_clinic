@@ -1,0 +1,94 @@
+.reviews {
+    width: 100%;
+    float: left;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 23%;
+    padding-bottom: 6%; /* extra bottom padding for dots */
+    background-color: #00B6BE;
+    color: #fff;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .swiper-container2 {
+    position: relative;
+  }
+  
+  .swiper-container2 .swiper-slide {
+    background-color: white;
+    height: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+  }
+  
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .stars {
+    color: orange;
+    font-size: 20px;
+  }
+  
+  .review-text {
+    font-size: 14px;
+    margin: 15px 0;
+    height: 120px; /* fixed height */
+    overflow-y: auto; /* scrollbar inside text */
+    padding-right: 5px; /* prevent text cutting */
+  }
+  
+  /* Scrollbar style optional */
+  .review-text::-webkit-scrollbar {
+    width: 4px;
+  }
+  .review-text::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+  }
+  
+  .client-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .client-initial {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .client-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Make pagination dots outside the card */
+  .swiper-pagination {
+    margin-bottom: 0px;
+  }
+  

@@ -1,0 +1,47 @@
+/* .green-section {
+  background-color: #e0f2f1;
+  padding-left: 4%; 
+    padding-right: 23%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.points p {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .points p {
+    text-align: center;
+  }
+} */
+.green-section {
+  background: #e8f5e9;
+  padding: 50px 0;
+}
+
+.green-section .icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.green-section .points p {
+  margin: 0;
+  font-weight: 500;
+}

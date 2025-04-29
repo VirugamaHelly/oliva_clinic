@@ -1,0 +1,61 @@
+header {
+    background-color: #00b6be;
+    padding: 2px 0;
+    height: auto;
+    color: white;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .phone_Logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+  }
+  
+  .phone_text h1 {
+    font-size: 1.3em;
+    margin: 0;
+  }
+  
+  .phone_text p {
+    font-size: 12px;
+    margin: 2px 0 0 0;
+    white-space: nowrap;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .main {
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .right {
+      display: none;
+    }
+  
+    .main {
+      justify-content: center;
+    }
+  
+    .left img {
+      height: 50px;
+    }
+  }
+  

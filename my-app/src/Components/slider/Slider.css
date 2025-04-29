@@ -1,0 +1,29 @@
+/* Basic container styling */
+.slider-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Hide the mobile image on large screens */
+.mobile-img {
+  display: none;
+}
+
+/* Show desktop image on larger screens */
+.desktop-img {
+  display: block;
+}
+ .img img{
+  height: auto;
+  width: 100%;
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img{
+    display: block;
+  }
+}

@@ -1,0 +1,44 @@
+/* Custom styles */
+.form-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.treatment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.treatment-box {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.treatment-box:hover {
+  transform: translateY(-5px);
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.treatment-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.treatment-list .btn {
+  margin-top: 10px;
+}
